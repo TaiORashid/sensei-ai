@@ -1,0 +1,889 @@
+{
+  "success": true,
+  "data": {
+    "structure": {
+      "topics": [
+        {
+          "id": "topic_1",
+          "title": "Trees: Basic Concepts and Terminology",
+          "subtopics": [
+            {
+              "id": "topic_1_sub_1",
+              "title": "Definition and Overview",
+              "page_reference": 1,
+              "char_start": 0,
+              "char_end": 500
+            },
+            {
+              "id": "topic_1_sub_2",
+              "title": "Properties",
+              "page_reference": 2,
+              "char_start": 0,
+              "char_end": 500
+            },
+            {
+              "id": "topic_1_sub_3",
+              "title": "General Terminology",
+              "page_reference": 2,
+              "char_start": 501,
+              "char_end": 1000
+            },
+            {
+              "id": "topic_1_sub_4",
+              "title": "Tree Components / Concepts (Visual Summary)",
+              "page_reference": 3,
+              "char_start": 0,
+              "char_end": 500
+            }
+          ],
+          "page_range": [
+            1,
+            3
+          ]
+        },
+        {
+          "id": "topic_2",
+          "title": "Binary Trees: Definition, Types, and Properties",
+          "subtopics": [
+            {
+              "id": "topic_2_sub_1",
+              "title": "Definition and Examples",
+              "page_reference": 4,
+              "char_start": 0,
+              "char_end": 800
+            },
+            {
+              "id": "topic_2_sub_2",
+              "title": "Types of Binary Trees (Full, Complete, Balanced)",
+              "page_reference": 5,
+              "char_start": 0,
+              "char_end": 1500
+            },
+            {
+              "id": "topic_2_sub_3",
+              "title": "Properties: Maximum Nodes at Level",
+              "page_reference": 6,
+              "char_start": 0,
+              "char_end": 800
+            },
+            {
+              "id": "topic_2_sub_4",
+              "title": "Properties: Maximum Nodes in a Tree",
+              "page_reference": 7,
+              "char_start": 0,
+              "char_end": 800
+            },
+            {
+              "id": "topic_2_sub_5",
+              "title": "Balanced Binary Trees and Relationships",
+              "page_reference": 8,
+              "char_start": 0,
+              "char_end": 800
+            },
+            {
+              "id": "topic_2_sub_6",
+              "title": "Summary of Tree Terminology (Part 1)",
+              "page_reference": 9,
+              "char_start": 0,
+              "char_end": 800
+            },
+            {
+              "id": "topic_2_sub_7",
+              "title": "Summary of Tree Terminology (Part 2)",
+              "page_reference": 10,
+              "char_start": 0,
+              "char_end": 1000
+            },
+            {
+              "id": "topic_2_sub_8",
+              "title": "Summary of Tree Terminology (Part 3)",
+              "page_reference": 11,
+              "char_start": 0,
+              "char_end": 1000
+            }
+          ],
+          "page_range": [
+            4,
+            11
+          ]
+        },
+        {
+          "id": "topic_3",
+          "title": "Tree Representation",
+          "subtopics": [
+            {
+              "id": "topic_3_sub_1",
+              "title": "Array-based Implementation Overview",
+              "page_reference": 12,
+              "char_start": 0,
+              "char_end": 1000
+            },
+            {
+              "id": "topic_3_sub_2",
+              "title": "Array-based Implementation: Python Code and Example",
+              "page_reference": 13,
+              "char_start": 0,
+              "char_end": 3000
+            },
+            {
+              "id": "topic_3_sub_3",
+              "title": "Pros and Cons of Array-based Implementation",
+              "page_reference": 16,
+              "char_start": 0,
+              "char_end": 500
+            },
+            {
+              "id": "topic_3_sub_4",
+              "title": "Class-based (Nodes and References) Implementation",
+              "page_reference": 16,
+              "char_start": 501,
+              "char_end": 800
+            }
+          ],
+          "page_range": [
+            12,
+            16
+          ]
+        },
+        {
+          "id": "topic_4",
+          "title": "Binary Tree Traversal",
+          "subtopics": [
+            {
+              "id": "topic_4_sub_1",
+              "title": "Preorder Traversal (Concept)",
+              "page_reference": 17,
+              "char_start": 0,
+              "char_end": 800
+            },
+            {
+              "id": "topic_4_sub_2",
+              "title": "Inorder Traversal (Concept)",
+              "page_reference": 18,
+              "char_start": 0,
+              "char_end": 400
+            },
+            {
+              "id": "topic_4_sub_3",
+              "title": "Postorder Traversal (Concept)",
+              "page_reference": 18,
+              "char_start": 401,
+              "char_end": 800
+            },
+            {
+              "id": "topic_4_sub_4",
+              "title": "Preorder Traversal: Python Implementation and Exercise",
+              "page_reference": 19,
+              "char_start": 0,
+              "char_end": 1000
+            },
+            {
+              "id": "topic_4_sub_5",
+              "title": "Inorder Traversal: Python Implementation",
+              "page_reference": 20,
+              "char_start": 0,
+              "char_end": 500
+            },
+            {
+              "id": "topic_4_sub_6",
+              "title": "Postorder Traversal: Python Implementation",
+              "page_reference": 20,
+              "char_start": 501,
+              "char_end": 1000
+            }
+          ],
+          "page_range": [
+            17,
+            20
+          ]
+        }
+      ],
+      "document_title": "Trees and Binary Trees: Concepts, Representation, and Traversal"
+    },
+    "highlights": {
+      "highlights": [
+        {
+          "page_number": 1,
+          "start_char": 20,
+          "end_char": 270,
+          "text": "Trees\nTrees are non-linear/hierarchical data structures\nTrees have many things in common with their botanical cousins\noroot, branches, and leaves\nDifference - a tree data structure has its root at the top and its leaves \non the bottom.\nSuch a representation helps to represent hierarchical relationships.",
+          "topic_id": "topic_1_sub_1",
+          "importance": "high"
+        },
+        {
+          "page_number": 2,
+          "start_char": 70,
+          "end_char": 330,
+          "text": "Properties\n• Trees: \n-The topmost node is called root of the tree. \n-The elements that are directly under an element are called its \nchildren. \n-The element directly above node is called its parent.\n-Elements with no children are called leaves.",
+          "topic_id": "topic_1_sub_2",
+          "importance": "high"
+        },
+        {
+          "page_number": 2,
+          "start_char": 390,
+          "end_char": 728,
+          "text": "Terminology\n• The height of trees\n– Level/depth of a node n in a tree T\n• If n is the root of T, it is at level 0\n• If n is not the root of T, its level is 1 greater than the level of its parent\n– Height of a tree T defined in terms of the levels of its nodes\n• If T is empty, its height is 0\n• If T is not empty, its height is equal to the maximum level of its nodes",
+          "topic_id": "topic_1_sub_3",
+          "importance": "high"
+        },
+        {
+          "page_number": 3,
+          "start_char": 20,
+          "end_char": 130,
+          "text": "Tree Components / Concepts\nNodes\n- Root\n- Parent\n- Child\n- Leaf \nEdgesHeight = 2",
+          "topic_id": "topic_1_sub_4",
+          "importance": "medium"
+        },
+        {
+          "page_number": 4,
+          "start_char": 20,
+          "end_char": 130,
+          "text": "Binary Trees\nA type of tree where each node have at most two children\nA binary tree A tree (not a binary tree)",
+          "topic_id": "topic_2_sub_1",
+          "importance": "high"
+        },
+        {
+          "page_number": 5,
+          "start_char": 70,
+          "end_char": 242,
+          "text": "• Full, complete, and balanced binary trees\n–A full binary tree of height his a binary tree \nin which every node has 2 children each.",
+          "topic_id": "topic_2_sub_2",
+          "importance": "high"
+        },
+        {
+          "page_number": 5,
+          "start_char": 400,
+          "end_char": 890,
+          "text": "• Complete binary trees\n•A complete binary tree is a binary tree in which every level, except \nthe last, is completely filled, and all nodes are as far left as possible.\n– A binary tree T of height h is complete if\n• All nodes at level h –1 and above have two children each, and\n• When a node at level h has children, all nodes to its left at the same level \nhave two children each, and\n• When a node at level h has one child, it is a left child",
+          "topic_id": "topic_2_sub_2",
+          "importance": "high"
+        },
+        {
+          "page_number": 6,
+          "start_char": 70,
+          "end_char": 152,
+          "text": "Properties\nThe maximum number of nodes at level ‘L’ of a binary tree is 2L.",
+          "topic_id": "topic_2_sub_3",
+          "importance": "high"
+        },
+        {
+          "page_number": 6,
+          "start_char": 210,
+          "end_char": 310,
+          "text": "Level: 0  Max # of nodes: 20= 1 \nLevel: 1  Max # of nodes: 21= 2 \nLevel: 2  Max # of nodes: 22= 4",
+          "topic_id": "topic_2_sub_3",
+          "importance": "low"
+        },
+        {
+          "page_number": 7,
+          "start_char": 70,
+          "end_char": 160,
+          "text": "Properties\nMaximum number of nodes in a binary tree of height ‘h’ is 2h+1−1.",
+          "topic_id": "topic_2_sub_4",
+          "importance": "high"
+        },
+        {
+          "page_number": 7,
+          "start_char": 210,
+          "end_char": 470,
+          "text": "Examples\nHeight = 0 \nMax # of nodes = \n1Maximum number of nodes in a binary tree of height ‘h’ is 2h+1−1\nHeight = 1 \nMax # of nodes = \n3 Height = 3 \nMax # of nodes = \n7",
+          "topic_id": "topic_2_sub_4",
+          "importance": "low"
+        },
+        {
+          "page_number": 8,
+          "start_char": 210,
+          "end_char": 460,
+          "text": "Terminology\n• Balanced binary trees\n– A binary tree is balanced if \nthe height of any node’s right \nsubtree differs from the height \nof the node’s left subtree by \nno more than 1\n•Full binary trees are complete\n•Complete binary trees are balanced",
+          "topic_id": "topic_2_sub_5",
+          "importance": "high"
+        },
+        {
+          "page_number": 9,
+          "start_char": 210,
+          "end_char": 620,
+          "text": "Terminology\n• Summary of tree terminology\n– General tree\n• A set of one or more nodes, partitioned into a root node and \nsubsets that are general subtrees of the root\n– Parent of node n\n• The node directly above node n in the tree\n– Child of node n\n• A node directly below node n in the tree\n– Root\n• The only node in the tree with no parent",
+          "topic_id": "topic_2_sub_6",
+          "importance": "medium"
+        },
+        {
+          "page_number": 10,
+          "start_char": 70,
+          "end_char": 560,
+          "text": "Terminology\n• Summary of tree terminology (Continued)\n– Leaf\n• A node with no children\n– Siblings\n• Nodes with a common parent\n– Ancestor of node n\n• A node on the path from the root to n\n– Descendant of node n\n• A node on a path from n to a leaf\n– Subtree of node n\n• A tree that consists of a child \n• (if any) of n and the child’s descendants",
+          "topic_id": "topic_2_sub_7",
+          "importance": "medium"
+        },
+        {
+          "page_number": 10,
+          "start_char": 590,
+          "end_char": 1050,
+          "text": "Terminology\n• Summary of tree terminology (Continued)\n– Height\n• The number of edgeslongest path from the root to a leaf\n– Binary tree\n• A set of nodes that is either empty or partitioned into a root node and one or two subsets \nthat are binary subtrees of the root\n• Each node has at most two children, the left child and the right child\n– Left (right) child of node n\n• A node directly below and to the left (right) of node n in a binary tree",
+          "topic_id": "topic_2_sub_7",
+          "importance": "medium"
+        },
+        {
+          "page_number": 11,
+          "start_char": 70,
+          "end_char": 570,
+          "text": "Terminology\n• Summary of tree terminology (Continued)\n– Left (right) subtree of node n\n• In a binary tree, the left (right) child (if any) of node n plus its descendants\n– Binary search tree\n• A binary tree where the value in any node n is greater than the value in every node in n’s \nleft subtree, but less than the value of every node in n’s right subtree\n– Empty binary tree\n• A binary tree with no nodes",
+          "topic_id": "topic_2_sub_8",
+          "importance": "medium"
+        },
+        {
+          "page_number": 11,
+          "start_char": 600,
+          "end_char": 1090,
+          "text": "Terminology\n• Summary of tree terminology (Continued)\n– Full binary tree\n• A binary tree of height h with no missing nodes\n• All leaves are at level h and all other nodes each have two children\n– Complete binary tree\n• A binary tree of height h that is full to level h –1 and has level h filled in from left to \nright\n– Balanced binary tree\n• A binary tree in which the left and right subtrees of any node have heights that differ by \nat most 1",
+          "topic_id": "topic_2_sub_8",
+          "importance": "medium"
+        },
+        {
+          "page_number": 12,
+          "start_char": 20,
+          "end_char": 340,
+          "text": "Tree Representation\n1. Array Based\n2. Nodes and References Based\n1. Binary Tree –Array based Implementation\n- Binary tree is stored in an array\n- Each element of the array represents a node\n- For any node i,\n- Left child is at index 2*i+1\n- Right child is at index 2*i+2\n- It’s parent is at index (i-1)/2",
+          "topic_id": "topic_3_sub_1",
+          "importance": "high"
+        },
+        {
+          "page_number": 13,
+          "start_char": 20,
+          "end_char": 320,
+          "text": "Binary Tree –Array based Implementation\nArrayBinaryTree\n-arr : list\n+ __init__(size : int)\n+ set_root(value : Object)\n+ set_left(i : int, value : Object)\n+ set_right(i : int, value : Object)\n+ get_left(i : int)\n+ get_right(i : int)\n+ get_parent(i : int)\n+ print_tree()\nUML Class Diagram",
+          "topic_id": "topic_3_sub_2",
+          "importance": "medium"
+        },
+        {
+          "page_number": 13,
+          "start_char": 390,
+          "end_char": 580,
+          "text": "class ArrayBinaryTree:\ndef __init__(self, size):\nself.arr = [None] * size  # Initialization\ndef set_root(self, value):\nself.arr[0] = value",
+          "topic_id": "topic_3_sub_2",
+          "importance": "medium"
+        },
+        {
+          "page_number": 14,
+          "start_char": 70,
+          "end_char": 540,
+          "text": "def set_left(self, i, value):\nleft = 2 * i + 1\nif left < len(self.arr):\nself.arr[left] = value\nelse:\nprint(f\"Index is out of bounds.\")\ndef set_right(self, i, value):\nright = 2 * i + 2\nif right < len(self.arr):\nself.arr[right] = value\nelse:\nprint(f\"Index is out of bounds.\")",
+          "topic_id": "topic_3_sub_2",
+          "importance": "medium"
+        },
+        {
+          "page_number": 14,
+          "start_char": 570,
+          "end_char": 950,
+          "text": "def get_left(self, i):\nleft = 2 * i + 1\nif left < len(self.arr):\nreturn self.arr[left]\nreturn None\ndef get_right(self, i):\nright = 2 * i + 2\nif right < len(self.arr):\nreturn self.arr[right]\nreturn None",
+          "topic_id": "topic_3_sub_2",
+          "importance": "medium"
+        },
+        {
+          "page_number": 15,
+          "start_char": 70,
+          "end_char": 370,
+          "text": "def get_parent(self, i):\nif i == 0:\nreturn None  # Root node has no parent\nparent = (i - 1) // 2\nreturn self.arr[parent] if parent >= 0 else None\ndef print_tree(self):\nprint(self.arr)",
+          "topic_id": "topic_3_sub_2",
+          "importance": "medium"
+        },
+        {
+          "page_number": 15,
+          "start_char": 400,
+          "end_char": 920,
+          "text": "# Example usage\nbtree = ArrayBinaryTree(7)\nbtree.set_root('a')\nbtree.set_left(0, 'b')\nbtree.set_right(0, 'c')\nbtree.set_left(1, 'd')\nbtree.set_right(1, 'e')\nbtree.set_left(2, 'f')\nbtree.set_right(2, 'g')\nbtree.print_tree()\nprint(btree.get_parent(4)) # Get parent of 'e'\nprint(btree.get_parent(5))  # Get parent of 'f'",
+          "topic_id": "topic_3_sub_2",
+          "importance": "low"
+        },
+        {
+          "page_number": 16,
+          "start_char": 20,
+          "end_char": 240,
+          "text": "Pros and Cons of Array-based implementation\n+ memory efficient and simple implementation\n+ uses a contiguous block of memory\n-Works well only for complete binary trees\n-insertion, deletion, and traversal is less efficient",
+          "topic_id": "topic_3_sub_3",
+          "importance": "high"
+        },
+        {
+          "page_number": 16,
+          "start_char": 250,
+          "end_char": 510,
+          "text": "2. Binary Tree – Class based implementation\nTree nodes are represented based on objects\nclass TreeNode:\ndef __init__(self, value, left, right):\nself.value = value\nself.left = left\nself.right = right",
+          "topic_id": "topic_3_sub_4",
+          "importance": "high"
+        },
+        {
+          "page_number": 17,
+          "start_char": 210,
+          "end_char": 500,
+          "text": "Binary Tree -Traversal\nPreorder Traversal\nRoot\nLeftRigh\nt\nRoot---> Left ---> Right- Visit the current node (root)\n- Visit the left subtree recursively\n- Visit the right subtree recursively",
+          "topic_id": "topic_4_sub_1",
+          "importance": "high"
+        },
+        {
+          "page_number": 18,
+          "start_char": 20,
+          "end_char": 280,
+          "text": "Binary Tree -Traversal\nInorderTraversal\nLeft ---> Root---> Right- Visit the left subtree recursively\n- Visit the current node (root)\n- Visit the right subtree recursively",
+          "topic_id": "topic_4_sub_2",
+          "importance": "high"
+        },
+        {
+          "page_number": 18,
+          "start_char": 330,
+          "end_char": 650,
+          "text": "Binary Tree -Traversal\nPostorderTraversal\nLeft ---> Right ---> Root- Visit the left subtree recursively\n- Visit the right subtree recursively\n- Visit the current node (root)",
+          "topic_id": "topic_4_sub_3",
+          "importance": "high"
+        },
+        {
+          "page_number": 19,
+          "start_char": 20,
+          "end_char": 190,
+          "text": "Exercise:\nFind out the preorder, inorder, and postorder traversal results for the \nfollowing binary tree:\na\nb c\ne d fg",
+          "topic_id": "topic_4_sub_4",
+          "importance": "low"
+        },
+        {
+          "page_number": 19,
+          "start_char": 260,
+          "end_char": 560,
+          "text": "def traversePreOrder(node):\nprint(node.value)\nif node.left != None:\ntraversePreOrder(node.left)\nif node.right != None:\ntraversePreOrder(node.right)Preorder Traversal – Python Implementation\nOutput:  3 > 9 > 4 > 5 > 8",
+          "topic_id": "topic_4_sub_4",
+          "importance": "medium"
+        },
+        {
+          "page_number": 20,
+          "start_char": 20,
+          "end_char": 320,
+          "text": "def traverseInOrder(node):\nif node.left != None:\ntraverseInOrder(node.left)\nprint(node.value)\nif node.right != None:\ntraverseInOrder(node.right)InorderTraversal – Python Implementation\nOutput:  4 > 9 > 5 > 3 > 8",
+          "topic_id": "topic_4_sub_5",
+          "importance": "medium"
+        },
+        {
+          "page_number": 20,
+          "start_char": 460,
+          "end_char": 770,
+          "text": "def traversePostOrder(node):\nif node.left != None:\ntraversePostOrder(node.left)\nif node.right != None:\ntraversePostOrder(node.right)\nprint(node.value)PostorderTraversal – Python Implementation\nOutput:  4>5>9>8>3",
+          "topic_id": "topic_4_sub_6",
+          "importance": "medium"
+        }
+      ],
+      "total_pages": 21
+    },
+    "explanations": {
+      "overarching_explanation": "This document will guide you through the foundational concepts of tree data structures, progressing to the specific characteristics and applications of binary trees. By studying this material, you will be able to define, classify, represent, and systematically navigate hierarchical data, equipping you with essential skills for advanced data structure and algorithm design.",
+      "topic_explanations": [
+        {
+          "topic_id": "topic_1",
+          "topic_title": "Trees: Basic Concepts and Terminology",
+          "explanation": "After studying this topic, you will understand what a tree data structure is, how it differs from linear structures, and the fundamental terminology used to describe its components and relationships. This is important because a solid grasp of these basics is crucial for comprehending more specialized tree types and their applications.",
+          "prerequisite_concepts": [
+            "Basic understanding of data structures (e.g., lists, arrays)",
+            "Concept of hierarchical organization"
+          ],
+          "next_steps": [
+            "Draw and label various parts of sample tree structures",
+            "Explain tree concepts in your own words without referring to notes"
+          ],
+          "related_topics": [
+            "topic_2",
+            "topic_3"
+          ]
+        },
+        {
+          "topic_id": "topic_2",
+          "topic_title": "Binary Trees: Definition, Types, and Properties",
+          "explanation": "After studying this topic, you will be able to define binary trees, differentiate between various types like full, complete, and balanced binary trees, and understand their key mathematical properties. This understanding is vital as binary trees are a cornerstone in computer science, frequently used in algorithms for efficient data organization and retrieval.",
+          "prerequisite_concepts": [
+            "topic_1: Trees: Basic Concepts and Terminology"
+          ],
+          "next_steps": [
+            "Identify the type of binary tree from given diagrams",
+            "Calculate the maximum number of nodes for binary trees of different heights",
+            "Explore real-world examples where specific binary tree types are preferred"
+          ],
+          "related_topics": [
+            "topic_3",
+            "topic_4"
+          ]
+        },
+        {
+          "topic_id": "topic_3",
+          "topic_title": "Tree Representation",
+          "explanation": "After studying this topic, you will understand the common methods for representing trees in computer memory, specifically array-based and node-and-reference implementations. This is crucial for translating theoretical tree concepts into practical, executable code and for appreciating the trade-offs involved in different implementation choices.",
+          "prerequisite_concepts": [
+            "topic_1: Trees: Basic Concepts and Terminology",
+            "topic_2: Binary Trees: Definition, Types, and Properties",
+            "Basic programming concepts (arrays/lists, objects/classes)"
+          ],
+          "next_steps": [
+            "Implement a simple binary tree using both array-based and node-and-reference approaches in a programming language",
+            "Analyze the space and time complexity implications of each representation"
+          ],
+          "related_topics": [
+            "topic_4"
+          ]
+        },
+        {
+          "topic_id": "topic_4",
+          "topic_title": "Binary Tree Traversal",
+          "explanation": "After studying this topic, you will learn the fundamental algorithms for systematically visiting every node in a binary tree: preorder, inorder, and postorder traversal. This knowledge is essential for performing operations like searching, inserting, deleting, and displaying data stored within tree structures, forming the basis for many tree-based algorithms.",
+          "prerequisite_concepts": [
+            "topic_2: Binary Trees: Definition, Types, and Properties",
+            "topic_3: Tree Representation",
+            "Recursion (beneficial but not strictly covered as a prerequisite in document)"
+          ],
+          "next_steps": [
+            "Trace the execution of each traversal method on various binary tree examples",
+            "Implement all three traversal algorithms in code and test them",
+            "Investigate applications where each specific traversal order is most useful"
+          ],
+          "related_topics": [
+            "topic_2",
+            "topic_3"
+          ]
+        }
+      ]
+    },
+    "quiz": {
+      "questions": [
+        {
+          "question_id": "q_1",
+          "question_text": "What is a fundamental characteristic of tree data structures concerning their organization?",
+          "choices": [
+            {
+              "choice_id": "q_1_a",
+              "text": "Linear",
+              "is_correct": false,
+              "explanation": "This is incorrect because linear data structures arrange data sequentially, like arrays or linked lists. The document explicitly states that trees are 'non-linear' data structures on page 1."
+            },
+            {
+              "choice_id": "q_1_b",
+              "text": "Sequential",
+              "is_correct": false,
+              "explanation": "This is incorrect. Sequential organization implies elements are arranged one after another, which is a characteristic of linear data structures, not trees. Trees are non-linear, as mentioned on page 1."
+            },
+            {
+              "choice_id": "q_1_c",
+              "text": "Hierarchical",
+              "is_correct": true,
+              "explanation": "This is correct because the document on page 1 defines trees as 'non-linear/hierarchical data structures'. This representation helps to establish and visualize relationships where elements are organized in levels, with parents and children."
+            },
+            {
+              "choice_id": "q_1_d",
+              "text": "Flat",
+              "is_correct": false,
+              "explanation": "This is incorrect. A flat structure would imply all elements are at the same level with no parent-child relationships, which contradicts the hierarchical nature of trees described on page 1."
+            }
+          ],
+          "topic_id": "topic_1",
+          "difficulty": "easy",
+          "page_reference": 1
+        },
+        {
+          "question_id": "q_2",
+          "question_text": "According to the document, what is the level of the root node in a tree T?",
+          "choices": [
+            {
+              "choice_id": "q_2_a",
+              "text": "1",
+              "is_correct": false,
+              "explanation": "This is incorrect. While some indexing systems might start at 1, the document specifically defines the level of the root node as 0. Subsequent levels increment from there."
+            },
+            {
+              "choice_id": "q_2_b",
+              "text": "-1",
+              "is_correct": false,
+              "explanation": "This is incorrect. A negative level is not defined for tree nodes in the document. The level of a node represents its distance from the root."
+            },
+            {
+              "choice_id": "q_2_c",
+              "text": "0",
+              "is_correct": true,
+              "explanation": "This is correct. As stated on page 2 under 'Terminology', 'If n is the root of T, it is at level 0'. This is the standard convention for measuring depth from the root."
+            },
+            {
+              "choice_id": "q_2_d",
+              "text": "Undefined",
+              "is_correct": false,
+              "explanation": "This is incorrect. The level of the root node is explicitly defined. The document provides a clear rule for determining the level of any node, starting with the root."
+            }
+          ],
+          "topic_id": "topic_1",
+          "difficulty": "easy",
+          "page_reference": 2
+        },
+        {
+          "question_id": "q_3",
+          "question_text": "Which statement accurately describes a binary tree?",
+          "choices": [
+            {
+              "choice_id": "q_3_a",
+              "text": "Each node has exactly two children",
+              "is_correct": false,
+              "explanation": "This is incorrect. This definition describes a 'full' binary tree, or a specific condition, but not a general binary tree. A general binary tree allows for nodes with zero, one, or two children, as stated on page 4 and page 10."
+            },
+            {
+              "choice_id": "q_3_b",
+              "text": "Each node can have any number of children",
+              "is_correct": false,
+              "explanation": "This is incorrect. This describes a 'general tree' data structure. A binary tree has a specific constraint on the number of children, as defined on page 4 and page 10."
+            },
+            {
+              "choice_id": "q_3_c",
+              "text": "Each node has at most two children",
+              "is_correct": true,
+              "explanation": "This is correct. According to page 4, 'A type of tree where each node have at most two children'. This is the defining characteristic of a binary tree, reiterated on page 10."
+            },
+            {
+              "choice_id": "q_3_d",
+              "text": "Each node has at least one child",
+              "is_correct": false,
+              "explanation": "This is incorrect. A node in a binary tree can have zero children (making it a leaf node), one child, or two children. The 'at least one' constraint is not part of the definition of a binary tree."
+            }
+          ],
+          "topic_id": "topic_2",
+          "difficulty": "easy",
+          "page_reference": 4
+        },
+        {
+          "question_id": "q_4",
+          "question_text": "A binary tree of height 'h' where every level except the last is completely filled, and all nodes at the last level are as far left as possible, is known as what type of tree?",
+          "choices": [
+            {
+              "choice_id": "q_4_a",
+              "text": "Full binary tree",
+              "is_correct": false,
+              "explanation": "This is incorrect. A full binary tree of height h requires every node to have 2 children (except leaves which are all at level h). While related, the 'filled from left to right' on the last level is specific to a complete binary tree, as defined on page 5."
+            },
+            {
+              "choice_id": "q_4_b",
+              "text": "Balanced binary tree",
+              "is_correct": false,
+              "explanation": "This is incorrect. A balanced binary tree focuses on the height difference between left and right subtrees (no more than 1), not the filling pattern of levels. While a complete binary tree is balanced, this definition is more specific to completeness, as explained on page 8 and 11."
+            },
+            {
+              "choice_id": "q_4_c",
+              "text": "Complete binary tree",
+              "is_correct": true,
+              "explanation": "This is correct. The document on page 5 defines a complete binary tree as one in which 'every level, except the last, is completely filled, and all nodes are as far left as possible'. This precisely matches the description given in the question."
+            },
+            {
+              "choice_id": "q_4_d",
+              "text": "Binary search tree",
+              "is_correct": false,
+              "explanation": "This is incorrect. A binary search tree is defined by the ordering of values within its nodes (left subtree values < root value < right subtree values), not by its structural completeness or height properties. This definition is given on page 11."
+            }
+          ],
+          "topic_id": "topic_2",
+          "difficulty": "medium",
+          "page_reference": 5
+        },
+        {
+          "question_id": "q_5",
+          "question_text": "What is the maximum number of nodes possible in a binary tree with a height of 3?",
+          "choices": [
+            {
+              "choice_id": "q_5_a",
+              "text": "7",
+              "is_correct": false,
+              "explanation": "This is incorrect. 7 is the maximum number of nodes for a binary tree of height 2 (2^(2+1)-1 = 8-1 = 7), as shown in the example on page 7. The formula is 2^(h+1)-1."
+            },
+            {
+              "choice_id": "q_5_b",
+              "text": "8",
+              "is_correct": false,
+              "explanation": "This is incorrect. 8 is 2^(h+1) for h=2, but the formula includes subtracting 1. The maximum number of nodes for height 3 is significantly higher, calculated using the formula 2^(h+1)-1."
+            },
+            {
+              "choice_id": "q_5_c",
+              "text": "15",
+              "is_correct": true,
+              "explanation": "This is correct. According to page 7, the maximum number of nodes in a binary tree of height 'h' is 2^(h+1) - 1. For h = 3, this calculates to 2^(3+1) - 1 = 2^4 - 1 = 16 - 1 = 15 nodes."
+            },
+            {
+              "choice_id": "q_5_d",
+              "text": "16",
+              "is_correct": false,
+              "explanation": "This is incorrect. 16 is 2^(h+1) for h=3, but the formula requires subtracting 1. This would represent the total number of slots, not the maximum nodes in the tree itself."
+            }
+          ],
+          "topic_id": "topic_2",
+          "difficulty": "hard",
+          "page_reference": 7
+        },
+        {
+          "question_id": "q_6",
+          "question_text": "In an array-based representation of a binary tree, if a node is at index `i`, what are the indices for its left child, right child, and parent, respectively?",
+          "choices": [
+            {
+              "choice_id": "q_6_a",
+              "text": "`2*i`, `2*i+1`, `i-1`",
+              "is_correct": false,
+              "explanation": "This is incorrect. While these are similar to array indexing rules for trees, they do not match the specific formulas provided in the document. The left child formula is off by 1, and the parent formula is missing integer division."
+            },
+            {
+              "choice_id": "q_6_b",
+              "text": "`2*i+1`, `2*i+2`, `(i-1)/2`",
+              "is_correct": true,
+              "explanation": "This is correct. As stated on page 12, 'For any node i, Left child is at index 2*i+1, Right child is at index 2*i+2, It’s parent is at index (i-1)/2'. The parent index calculation implies integer division to handle floating-point results."
+            },
+            {
+              "choice_id": "q_6_c",
+              "text": "`i+1`, `i+2`, `i-1`",
+              "is_correct": false,
+              "explanation": "This is incorrect. These indices suggest a linear array traversal rather than the hierarchical relationships of a binary tree. The formulas for children and parent are more complex due to the tree structure, as shown on page 12."
+            },
+            {
+              "choice_id": "q_6_d",
+              "text": "`2*i+1`, `2*i+2`, `i/2`",
+              "is_correct": false,
+              "explanation": "This is incorrect. While the children formulas are correct, the parent formula `i/2` (without subtracting 1 and using integer division) would lead to incorrect parent identification for most nodes, especially for odd-indexed children. The correct parent formula is `(i-1)/2` as per page 12."
+            }
+          ],
+          "topic_id": "topic_3",
+          "difficulty": "medium",
+          "page_reference": 12
+        },
+        {
+          "question_id": "q_7",
+          "question_text": "Which of the following is a primary disadvantage of using an array-based implementation for a binary tree?",
+          "choices": [
+            {
+              "choice_id": "q_7_a",
+              "text": "It is memory inefficient",
+              "is_correct": false,
+              "explanation": "This is incorrect. The document states on page 16 that array-based implementation is '+ memory efficient'. It uses a contiguous block of memory, which can be efficient if the tree is dense and complete."
+            },
+            {
+              "choice_id": "q_7_b",
+              "text": "It only works well for complete binary trees",
+              "is_correct": true,
+              "explanation": "This is correct. As listed on page 16, a key disadvantage is that it '-Works well only for complete binary trees'. For sparse or unbalanced trees, this method can lead to a lot of wasted memory (null entries)."
+            },
+            {
+              "choice_id": "q_7_c",
+              "text": "It requires complex pointer management",
+              "is_correct": false,
+              "explanation": "This is incorrect. Array-based implementation avoids pointer management because relationships are determined by mathematical formulas based on array indices, not explicit memory addresses. This is a characteristic of node-and-reference based implementations, not array-based ones."
+            },
+            {
+              "choice_id": "q_7_d",
+              "text": "Insertion and deletion are highly efficient",
+              "is_correct": false,
+              "explanation": "This is incorrect. The document states on page 16 that '-insertion, deletion, and traversal is less efficient' for array-based implementations, especially compared to linked structures when the tree is not complete."
+            }
+          ],
+          "topic_id": "topic_3",
+          "difficulty": "medium",
+          "page_reference": 16
+        },
+        {
+          "question_id": "q_8",
+          "question_text": "What is the correct order of visiting nodes in a Preorder Traversal of a binary tree?",
+          "choices": [
+            {
+              "choice_id": "q_8_a",
+              "text": "Left -> Root -> Right",
+              "is_correct": false,
+              "explanation": "This is incorrect. This order describes an Inorder Traversal, where the root is visited between its left and right subtrees, as shown on page 18."
+            },
+            {
+              "choice_id": "q_8_b",
+              "text": "Root -> Left -> Right",
+              "is_correct": true,
+              "explanation": "This is correct. As illustrated on page 17, Preorder Traversal is defined by visiting the 'Root', then recursively traversing the 'Left' subtree, and finally recursively traversing the 'Right' subtree."
+            },
+            {
+              "choice_id": "q_8_c",
+              "text": "Left -> Right -> Root",
+              "is_correct": false,
+              "explanation": "This is incorrect. This order describes a Postorder Traversal, where the root is visited last after both its left and right subtrees, as shown on page 18."
+            },
+            {
+              "choice_id": "q_8_d",
+              "text": "Root -> Right -> Left",
+              "is_correct": false,
+              "explanation": "This is incorrect. This order is not a standard binary tree traversal method. Standard traversals prioritize left before right for consistency."
+            }
+          ],
+          "topic_id": "topic_4",
+          "difficulty": "easy",
+          "page_reference": 17
+        },
+        {
+          "question_id": "q_9",
+          "question_text": "Given a binary tree, if an Inorder Traversal is performed, when is the current node (root) visited relative to its left and right subtrees?",
+          "choices": [
+            {
+              "choice_id": "q_9_a",
+              "text": "Before visiting both subtrees",
+              "is_correct": false,
+              "explanation": "This is incorrect. Visiting the root before both subtrees is characteristic of a Preorder Traversal, as explained on page 17."
+            },
+            {
+              "choice_id": "q_9_b",
+              "text": "After visiting both subtrees",
+              "is_correct": false,
+              "explanation": "This is incorrect. Visiting the root after both subtrees is characteristic of a Postorder Traversal, as explained on page 18."
+            },
+            {
+              "choice_id": "q_9_c",
+              "text": "After visiting the left subtree and before visiting the right subtree",
+              "is_correct": true,
+              "explanation": "This is correct. According to page 18, Inorder Traversal involves visiting 'Left ---> Root ---> Right', meaning the current node (root) is processed after its left subtree and before its right subtree."
+            },
+            {
+              "choice_id": "q_9_d",
+              "text": "Only if it has no children",
+              "is_correct": false,
+              "explanation": "This is incorrect. The traversal rules apply to all nodes, including those with children. Leaf nodes (no children) would still have their 'root' visited, but the recursive calls for left and right subtrees would simply return without further action."
+            }
+          ],
+          "topic_id": "topic_4",
+          "difficulty": "medium",
+          "page_reference": 18
+        },
+        {
+          "question_id": "q_10",
+          "question_text": "A binary tree is considered 'balanced' if which condition is met?",
+          "choices": [
+            {
+              "choice_id": "q_10_a",
+              "text": "All leaves are at the same level",
+              "is_correct": false,
+              "explanation": "This is incorrect. While this condition is met by a 'full' binary tree, it is not the definition of a balanced binary tree. A balanced tree can have leaves at different levels, as long as the height difference constraint is met."
+            },
+            {
+              "choice_id": "q_10_b",
+              "text": "Every node has exactly two children",
+              "is_correct": false,
+              "explanation": "This is incorrect. This describes a 'full' binary tree, which is a specific type of tree, but not the general definition of a balanced binary tree. A balanced tree can have nodes with one or no children."
+            },
+            {
+              "choice_id": "q_10_c",
+              "text": "The height of any node’s right subtree differs from the height of its left subtree by no more than 1",
+              "is_correct": true,
+              "explanation": "This is correct. As stated on page 8 and reiterated on page 11, a binary tree is balanced if 'the height of any node’s right subtree differs from the height of the node’s left subtree by no more than 1'."
+            },
+            {
+              "choice_id": "q_10_d",
+              "text": "Every level is completely filled",
+              "is_correct": false,
+              "explanation": "This is incorrect. While this is a characteristic of a 'complete' binary tree, it is not the definition of a balanced binary tree. A balanced tree can have partially filled levels, as long as the subtree height difference is maintained."
+            }
+          ],
+          "topic_id": "topic_2",
+          "difficulty": "medium",
+          "page_reference": 8
+        }
+      ],
+      "total_questions": 10
+    },
+    "metadata": {
+      "total_pages": 21,
+      "total_topics": 4,
+      "total_highlights": 33,
+      "total_questions": 10
+    }
+  }
+}
