@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "agent_backend/api_server.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "50mb" }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "agent_backend/api_server.py"
+      }
+    ]
+  }
+  
